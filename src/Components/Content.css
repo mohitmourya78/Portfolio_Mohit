@@ -67,7 +67,7 @@ section {
     background-size: cover;
 }
 .bg-\[url\(\'\/images\/cover\.jpeg\'\)\] {
-    background-image: url(/public/img/cover.jpeg);
+    background-image: url(/src/img/cover.jpeg);
 }
 .rounded-lg {
     border-radius: .5rem;
