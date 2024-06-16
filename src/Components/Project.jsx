@@ -12,7 +12,7 @@ function Project() {
 
         <a target='__blank' href='https://github.com/mohitmourya78/E-study-notes' >
           <div className='project-item trans' id='project-item' >
-            <img className='project-img' src="public/img/notes.jpg" alt="studynotes" />
+            <img className='project-img' src="/public/img/notes.jpg" alt="studynotes" />
             <div className='project-heading'>
               <div className='heading'>
                 E Study Notes
@@ -29,7 +29,7 @@ function Project() {
 
         <a target='__blank' href='https://github.com/mohitmourya78?tab=repositories' >
           <div className='project-item trans ' id='project-item' >
-            <img className='project-img' src="public/img/todo.png" alt="todo" />
+            <img className='project-img' src="/public/img/todo.png" alt="todo" />
             <div className='project-heading'>
               <div className='heading'>
                 TODO List
@@ -43,7 +43,7 @@ function Project() {
         </a>
         <a target='__blank' href='https://github.com/mohitmourya78/Music_playlist_by_mohit' >
           <div className='project-item trans ' id='project-item' >
-            <img className='project-img' src="public/img/music.jpg" alt="music" />
+            <img className='project-img' src="/public/img/music.jpg" alt="music" />
             <div className='project-heading'>
               <div className='heading'>
                 Music PlayList
@@ -57,7 +57,7 @@ function Project() {
         </a>
         <a  target='__blank' rget='__blank' href='https://github.com/mohitmourya78/coin_flip' >
           <div className='project-item trans ' id='project-item' >
-            <img className='project-img' src="public/img/coin.jpg" alt="coinflip" />
+            <img className='project-img' src="/public/img/coin.jpg" alt="coinflip" />
             <div className='project-heading'>
               <div className='heading'>
                 Coin Flip Toss
