@@ -11,7 +11,7 @@ function Contact() {
 
         
           <div className='project-item trans contact-item' >
-            <img className='project-img' src="../public/img/call.webp" alt="" />
+            <img className='project-img' src="./public/img/call.webp" alt="" />
             <div className='project-heading'>
               <div className='heading'>
                 Call
@@ -23,7 +23,7 @@ function Contact() {
           </div>
         
           <div className='project-item trans contact-item' >
-            <img className='project-img' src="../public/img/email.png" alt="" />
+            <img className='project-img' src="./public/img/email.png" alt="" />
             <div className='project-heading'>
               <div className='heading'>
                 Email
@@ -34,7 +34,7 @@ function Contact() {
             </div>
           </div>
           <div className='project-item trans contact-item' >
-            <img className='project-img' src="../public/img/address.webp" alt="" />
+            <img className='project-img' src="./public/img/address.webp" alt="" />
             <div className='project-heading'>
               <div className='heading'>
                 Address
