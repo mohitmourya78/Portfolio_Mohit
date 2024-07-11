@@ -38,7 +38,7 @@ const Skills = () => {
                         </div>
                         <div className='skill-lang'>
                             <div className='language red-border '> Mongo DB </div>
-                            <div className='language '> SQL </div>
+                            <div className='language '> MySQL </div>
                         </div>
                     </div>
                     <div className='skill-item trans'>

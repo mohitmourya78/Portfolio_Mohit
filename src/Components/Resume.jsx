@@ -1,22 +1,17 @@
 import React, {useState} from 'react'
 import './Resume.css'
 
+import resumePdf from '../assets/resume.pdf';
+
+
 const Resume = () => {
-    const onButtonClick = () => {
-        const pdfUrl = "resume.pdf";
-        const link = document.createElement("a");
-        link.href = pdfUrl;
-        link.download = "./public/files/resume.pdf"; // specify the filename
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    };
+  
     return (
         <>
             <center>
-                <button disabled className='trans' onClick={onButtonClick} style={{ color: 'white' }} >
+                <a className='trans bounce'  style={{ color: 'white' }} href={resumePdf} target="_blank">
                     Download CV
-                </button>
+                </a>
               
             </center>
         </>
