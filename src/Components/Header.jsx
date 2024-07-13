@@ -17,7 +17,7 @@ function Header() {
                     <div className='roundball'></div>
                 </div>
 
-
+ 
                 <div
                     className={`burger ${showLeftside ? 'active' : ''}`}
                     onClick={handleBurgerClick}>
@@ -28,7 +28,7 @@ function Header() {
 
                 <div className='right'>
                     <ul className='navlist respnavv'>
-                        <li><a href="/"><button disabled className='contact-btn' > Contact me </button> </a> </li>
+                        <li><a href="#contact"><button className='contact-btn' > Contact me </button> </a> </li>
                     </ul>
                 </div>
 

@@ -3,7 +3,7 @@ import './Project.css';
 
 function Project() {
   return (
-    <section id='projects'>
+    <section id='projects' classNAme='project-trans'>
 
       <div className='project'>
         My Projects
@@ -20,11 +20,11 @@ function Project() {
               <div className='para'>
                 Full Stack Development,Node.js, Express, MongoDB
               </div>
-              
+
             </div>
-            
+
           </div>
-          
+
         </a>
 
         <a target='__blank' href='https://github.com/mohitmourya78?tab=repositories' >
@@ -49,13 +49,13 @@ function Project() {
                 Music PlayList
               </div>
               <div className='para'>
-                HTML,CSS,JS 
+                HTML,CSS,JS
               </div>
 
             </div>
           </div>
         </a>
-        <a  target='__blank' rget='__blank' href='https://github.com/mohitmourya78/coin_flip' >
+        <a target='__blank' rget='__blank' href='https://github.com/mohitmourya78/coin_flip' >
           <div className='project-item trans ' id='project-item' >
             <img className='project-img' src="/img/coin.jpg" alt="coinflip" />
             <div className='project-heading'>
@@ -63,15 +63,15 @@ function Project() {
                 Coin Flip Toss
               </div>
               <div className='para'>
-                Tailwind,JS 
+                Tailwind,JS
               </div>
 
             </div>
           </div>
         </a>
 
-        
-       
+
+
 
       </div>
 

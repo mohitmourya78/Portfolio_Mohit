@@ -62,21 +62,19 @@
     border-color: rgba(234, 16, 16, 0.6);
 }
 
-.trans {
-
+.transt {
     transition: transform 0.3s ease;
 }
 
-.trans:hover {
+.transt:hover {
     transform: scale(1.1);
   
 }
 
-.language{
-    animation: bounce 2s infinite;
+.skill-lang{
+    animation: bouncing 2s infinite;
 }
-
-@keyframes bounce {
+@keyframes bouncing {
     0% {
         transform: translateY(0);
       }
@@ -88,6 +86,8 @@
       }
     
 }
+ 
+
 @media (max-width : 1024px) {
 
     .skills-grid{

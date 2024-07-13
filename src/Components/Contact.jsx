@@ -19,7 +19,7 @@ function Contact() {
               <div className='para'>
                 +91 78170 77318 
               </div>
-            </div>
+            </div> 
           </div>
         
           <div className='project-item trans contact-item' >

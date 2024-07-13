@@ -1,6 +1,8 @@
 import React from 'react'
 import './Skills.css'
 
+
+
 const Skills = () => {
     return (
         <section id='skills'>
@@ -10,12 +12,12 @@ const Skills = () => {
             <div className='skill-adjust'>
                 <div className='skills-grid'>
 
-                    <div className='skill-item trans'>
+                    <div className='skill-item transt'>
                         <div className='skills-type-heading'>
                             Frontend
                         </div>
                         <div className='skill-lang'>
-                            <div className='language yellow-border' > HTML </div>
+                            <div className='language yellow-border ' > HTML </div>
                             <div className='language'> CSS </div>
                             <div className='language blue-border'> Tailwaind </div>
                             <div className='language'> JavaScript </div>
@@ -23,7 +25,7 @@ const Skills = () => {
                             <div className='language '> Bootstrap </div>
                         </div>
                     </div>
-                    <div className='skill-item trans'>
+                    <div className='skill-item transt'>
                         <div className='skills-type-heading'>
                             Backend
                         </div>
@@ -32,7 +34,7 @@ const Skills = () => {
                             <div className='language blue-border '> Express js </div>
                         </div>
                     </div>
-                    <div className='skill-item trans'>
+                    <div className='skill-item transt'>
                         <div className='skills-type-heading'>
                             Database
                         </div>
@@ -41,7 +43,7 @@ const Skills = () => {
                             <div className='language '> MySQL </div>
                         </div>
                     </div>
-                    <div className='skill-item trans'>
+                    <div className='skill-item transt'>
                         <div className='skills-type-heading'>
                             Technology's
                         </div>
@@ -53,7 +55,7 @@ const Skills = () => {
                             <div className='language red-border'> Wordpress </div>
                         </div>
                     </div>
-                    <div className='skill-item trans'>
+                    <div className='skill-item transt'>
                         <div className='skills-type-heading'>
                             Soft Skills
                         </div>

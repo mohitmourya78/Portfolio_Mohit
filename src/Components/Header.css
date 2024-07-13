@@ -51,7 +51,6 @@
 
 .contact-btn {
 
-    opacity: .5;
     color: white;
     font-size: .75rem;
     line-height: 1rem;
@@ -83,7 +82,7 @@
 }
 
 .line {
-    background-color: #2bd576;
+    background-color: #10db68;
     width: 45px;
     height: 8px;
     margin: 4px 0;
